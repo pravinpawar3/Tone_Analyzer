@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashlinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a0c4ff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.pravin.splash.SplashScreen">
+
+    <ImageView
+        android:id="@+id/splashimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tone_logo" />
+
+    <TextView
+        android:id="@+id/splashtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tone Analyzer"
+        android:textSize="40dp" />
+
+</LinearLayout>
