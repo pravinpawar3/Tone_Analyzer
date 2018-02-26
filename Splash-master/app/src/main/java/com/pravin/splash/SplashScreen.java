@@ -50,7 +50,7 @@ public class SplashScreen extends AppCompatActivity {
                     SplashScreen.this.finish();
                 } catch (InterruptedException e) {
 
-                    // do nothing
+                  // do nothing
                 } finally {
                     SplashScreen.this.finish();
                 }
